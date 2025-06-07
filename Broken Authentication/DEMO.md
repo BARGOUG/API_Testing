@@ -23,4 +23,7 @@ So then, as the user Hamza , we created a post.
 
 ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/create_post.png?raw=true)
 
+As the user Yessine, we commented on Hamza's post and noticed that the endpoint returned the author's email address, indicating a potential vulnerability.
+
+
 
