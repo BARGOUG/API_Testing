@@ -22,7 +22,7 @@ Each directory or test case in this repository corresponds to one or more entrie
 
 | OWASP API Top 10 ID | Vulnerability |
 |---------------------|---------------|
-| API1:2023           | Broken Object Level Authorization |
+| API1:2023           | Broken Object Level Authorization |             Occurs when an API allows access to resources that belong to another user, enabling horizontal or vertical privilege escalation.
 | API2:2023           | Broken Authentication |
 | API3:2023           | Broken Object Property Level Authorization |
 | API4:2023           | Unrestricted Resource Consumption |
