@@ -27,11 +27,11 @@ Each directory or test case in this repository corresponds to one or more entrie
 | API3:2023           | Broken Object Property Level Authorization |
 | API4:2023           | Unrestricted Resource Consumption |
 | API5:2023           | Broken Function Level Authorization |
-| API6:2023           | Untrusted Data Storage |
-| API7:2023           | Improper Inventory Management |
-| API8:2023           | Improper Rate Limiting |
-| API9:2023           | Improper Logging & Monitoring |
-| API10:2023          | Improper Error Handling |
+| API6:2023           | Unrestricted Access to Sensitive Business Flows |
+| API7:2023           | Server Side Request Forgery |
+| API8:2023           | Security Misconfiguration |
+| API9:2023           | Improper Inventory Management |
+| API10:2023          | Unsafe Consumption of APIs |
 
 ---
 
