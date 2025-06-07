@@ -37,6 +37,6 @@ Each directory or test case in this repository corresponds to one or more entrie
 
 ## 🧰 Tools Used
 
-- **Postman / Burp Suite – Manual API testing
-- **ffuf / curl /  – Automation and fuzzing
+- Postman / Burp Suite – Manual API testing
+- ** ffuf / curl **  – Automation and fuzzing
 - **Python scripts** – Custom checks and reporting
