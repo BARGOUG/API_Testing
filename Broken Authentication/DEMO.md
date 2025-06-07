@@ -28,4 +28,10 @@ As the user Yessine, we commented on Hamza's post and noticed that the endpoint 
 ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/leaked_email.png?raw=true)
 
 
+We then clicked on the "Forgot Password" feature in an attempt to reset Hamza's password. The application responded by sending an OTP — a 4-digit verification code — to confirm whether Hamza was the one who initiated the password reset request.
+
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/forgot_password_interface.png?raw=true)
+
+
+
 
