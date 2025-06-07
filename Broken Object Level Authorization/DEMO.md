@@ -22,6 +22,10 @@ While exploring the application, we came across a feature that allows users to c
 After posting a comment, we observed that the API endpoint returned sensitive information about the author of the post, including their email address and vehicle ID .
 
 ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/author_id.png?raw=true)
+
+As previously observed, the refresh location API request requires a vehicle ID as a parameter. By using the leaked vehicle ID obtained from the victim's post comment response, we were able to successfully retrieve the real-time location of their vehicle.
+
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/car_location_leaked.png?raw=true)
 ---
 
 
