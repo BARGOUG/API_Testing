@@ -38,3 +38,8 @@ As previously observed, the refresh location API request requires a vehicle ID a
   - Find a hidden API endpoint that exposes mechanic reports.
   - Modify the report ID to access others' reports.
 
+ 
+ Within the application, there is a feature that allows users to contact a mechanic and submit complaints or feedback regarding vehicle services. This functionality interacts with an API endpoint that handles user-submitted reports.
+
+
+
