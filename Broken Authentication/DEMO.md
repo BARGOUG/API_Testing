@@ -34,9 +34,14 @@ We then clicked on the "Forgot Password" feature in an attempt to reset Hamza's 
 
 ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/forget_password_request.png?raw=true)
 
-During our examination of the password reset endpoint, we identified that the request accepted the following parameters: otp, email, and new_password. Since the OTP was only 4 digits and had no rate-limiting or account lockout protections, we used ffuf to automate the brute-forcing of valid OTP values between 1000 and 9999. With this approach, we were able to successfully submit a valid OTP/email combination and reset the target user’s password.
+During our examination of the password reset endpoint, we identified that the request required three parameters: otp, email, and new_password. Given that the OTP consisted of only 4 digits and the system lacked rate-limiting or account lockout mechanisms, we leveraged ffuf to automate the brute-forcing of valid OTP values within the range of 1000 to 9999. This allowed us to successfully identify a valid OTP/email combination and reset the target user's password. The correct OTP for this reset was found to be 7302 .
 
 ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/brute_force.png?raw=true)
+
+Once the password was reset through the OTP brute-force attack, we used the new credentials to authenticate into the target user's account. This confirmed the presence of a Broken Authentication vulnerability, where insufficient protections in the password recovery flow allowed us to bypass intended access controls and assume full control of the account.
+
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/login.png?raw=true)
+
 
 
 
