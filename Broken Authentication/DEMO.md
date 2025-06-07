@@ -25,5 +25,7 @@ So then, as the user Hamza , we created a post.
 
 As the user Yessine, we commented on Hamza's post and noticed that the endpoint returned the author's email address, indicating a potential vulnerability.
 
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/leaked_email.png?raw=true)
+
 
 
