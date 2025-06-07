@@ -1,1 +1,2 @@
-
+## 🔍 Overview
+Broken Authentication is a critical security vulnerability listed in the OWASP Top 10, referring to flaws in the implementation of authentication and session management mechanisms within an application.This vulnerability arises when attackers are able to compromise passwords, keys, or session tokens, or exploit poorly configured authentication protocols to gain unauthorized access to sensitive data or functionality.
