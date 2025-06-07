@@ -19,6 +19,9 @@ While exploring the application, we came across a feature that allows users to c
 
 ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/add_comment.png?raw=true)
 
+After posting a comment, we observed that the API endpoint returned sensitive information about the author of the post, including their email address and vehicle ID .
+
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/author_id.png?raw=true)
 ---
 
 
