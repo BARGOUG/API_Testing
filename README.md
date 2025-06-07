@@ -12,8 +12,7 @@ As modern applications increasingly rely on APIs for communication between servi
 
 - Evaluate APIs for compliance with the **OWASP API Security Top 10 (2023)**.
 - Identify and document vulnerabilities using manual and automated techniques.
-- Provide reproducible test cases and examples for each vulnerability class.
-- Offer remediation guidance based on industry best practices.
+
 
 ---
 
