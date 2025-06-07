@@ -12,9 +12,12 @@ After successfully logging into the crAPI application , a platform designed to m
 
 
 By analyzing the backend API requests, we identified an endpoint responsible for retrieving vehicle location data. This endpoint includes the vehicle ID as a parameter in the request URL, making it a potential target
+
 ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/author_id.png?raw=true)
 
+While exploring the application, we came across a feature that allows users to create posts and leave comments .
 
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/add_comment.png?raw=true)
 
 ---
 
