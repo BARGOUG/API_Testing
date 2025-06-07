@@ -17,3 +17,5 @@ This repository contains resources and solutions for the "Broken User Authentica
 
 For this demo we created two seperate accounts 'hamza' & 'yessine'
 
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/accs.png?raw=true)
+
