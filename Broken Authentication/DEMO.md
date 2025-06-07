@@ -32,6 +32,9 @@ We then clicked on the "Forgot Password" feature in an attempt to reset Hamza's 
 
 ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/forget_password_interface.png?raw=true)
 
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Authentication/images/forget_password_request.png?raw=true)
+
+
 
 
 
