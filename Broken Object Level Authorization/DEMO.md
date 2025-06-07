@@ -41,5 +41,11 @@ As previously observed, the refresh location API request requires a vehicle ID a
  
  Within the application, there is a feature that allows users to contact a mechanic and submit complaints or feedback regarding vehicle services. This functionality interacts with an API endpoint that handles user-submitted reports.
 
+ ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/contact_mechanic.png?raw=true)
+
+ After submitting a complaint to the mechanic through the application, the API endpoint returned a generated report link that allowed access to the submitted report.
+
+ ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/contact_mechanic_post.png?raw=true)
+
 
 
