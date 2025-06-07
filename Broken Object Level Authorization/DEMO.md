@@ -47,5 +47,13 @@ As previously observed, the refresh location API request requires a vehicle ID a
 
  ![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/contact_mechanic_post.png?raw=true)
 
+As observed in the generated report URL, the API includes a parameter named report_id. By modifying this value and resending the request, we were able to access reports belonging to other users. This allowed us to retrieve sensitive personal information , including the mechanic’s name and address , the victim’s car VIN (Vehicle Identification Number) , and their home address and phone number .
+
+This confirms a critical Broken Object Level Authorization (BOLA) vulnerability, where an attacker can exploit exposed object identifiers to access private user data without proper authorization.
+
+![image alt](https://github.com/BARGOUG/API_Testing/blob/main/Broken%20Object%20Level%20Authorization/vehicule_vin_leaked.png?raw=true)
+
+ 
+
 
 
