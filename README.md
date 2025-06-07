@@ -4,7 +4,7 @@
 
 This repository is dedicated to conducting comprehensive **API security testing** aligned with the **[OWASP API Security Top 10 (2023)](https://owasp.org/www-project-api-security/)**.  The goal is to identify and remediate common security risks in RESTful and GraphQL APIs by systematically evaluating them against the most critical threats defined by OWASP.
 
-As modern applications increasingly rely on APIs for communication between services, ensuring their security has become crucial. This project provides a structured approach to testing APIs for vulnerabilities such as broken authentication, insecure endpoints, insufficient logging, and more.
+As modern applications increasingly rely on APIs for communication between services, ensuring their security has become crucial. This lab provides a structured approach to testing APIs for vulnerabilities such as broken authentication, insecure endpoints, insufficient logging, and more.
 
 ---
 
